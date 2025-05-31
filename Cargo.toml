@@ -1,0 +1,12 @@
+[package]
+name = "revm-swap-sim"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+revm = { version = "4.0.0", features = ["std", "serde", "fork"] }
+alloy-primitives = "0.6"
+alloy-transport = { version = "0.6", features = ["reqwest"] }
+tokio = { version = "1", features = ["full"] }
+serde_json = "1.0"
+
